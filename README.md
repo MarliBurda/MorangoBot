@@ -1,0 +1,2 @@
+# MorangoBot
+Leitor de clorofila
