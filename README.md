@@ -7,7 +7,7 @@ MorangoBot - Sistema Embarcado de Diagnóstico Multiespectral
 
 - O MorangoBot é um sistema IoT embarcado de baixo custo desenvolvido para auxiliar produtores rurais no diagnóstico precoce de estresses nutricionais, hídricos e fitossanitários em cultivos de morango em ambiente protegido.
 
-- Desenvolvido pela **EQUIPE: EMANUELLA / KAUANE / LAURA / PAOLA / EMANUELA** do CEEP Olegário Macedo (Castro/PR), o projeto atende ao desafio proposto pelo produtor rural parceiro Luiz Antonio Lopes, produtor da cidade de Piraí do Sul/Pr, promovendo a agricultura de precisão acessível e reduzindo o uso desnecessário de insumos químicos e água.
+- Desenvolvido pela **EQUIPE: EMANUELLA / KAUANE / LAURA / PAOLA / EMANUELA** do CEEP Olegário Macedo (Castro/PR), o projeto atende ao desafio proposto pelo Consultor Agrícola Robert Correa Anhaia e o parceiro Luiz Antonio Lopes, produtor da cidade de Piraí do Sul/Pr, promovendo a agricultura de precisão acessível e reduzindo o uso desnecessário de insumos químicos e água.
 
 - Máquina de Estados Finita (FSM) Não-Bloqueante:** Substituição total de funções `delay()` por verificação temporal via `millis()` com 4 estados discretos (`IDLE`, `LED_ON`, `READ_TCS`, `FINALIZE`). Isso permite que o servidor HTTP continue respondendo a requisições assíncronas durante os 3 segundos de estabilização do sensor espectral.
 
