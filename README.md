@@ -28,3 +28,13 @@ Hardware Utilizado
 - Push Button: Acionamento diagnóstico                              >> GPIO4
 
 ### ⚡ Diagrama de Ligação
+ESP32-S3 N16R8
+├── GPIO1 (SDA) ─── BME280 (Wire1)
+├── GPIO2 (SCL) ─── BME280 (Wire1)
+├── GPIO8 (SDA) ─── TCS34725 (Wire)
+├── GPIO9 (SCL) ─── TCS34725 (Wire)
+├── GPIO3 (ADC) ─── Sensor Solo S12 (AOUT)
+├── GPIO4 ───────── Push Button → GND
+├── GPIO10 ──────── TCS LED Pin
+├── 3.3V ────────── VCC (BME, TCS, Solo)
+└── GND ─────────── GND (Todos)
